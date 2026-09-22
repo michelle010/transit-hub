@@ -1,0 +1,7 @@
+route_id,service_id,trip_id,trip_short_name,trip_headsign
+R_G,WEEKDAY,trip-g123,G123,乐山
+R_D,DAILY,trip-d456,D456,乐山
+R_K,DAILY,trip-k789,K789,乐山
+R_G,SPECIAL,trip-c888,C888,乐山
+R_G,DAILY,trip-g321,G321,成都东
+R_FAKE,DAILY,trip-line,杭深线 (全线),线路

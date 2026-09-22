@@ -1,0 +1,5 @@
+stop_id,stop_name,stop_lat,stop_lon,city_name
+CD_EAST,成都东,30.630,104.138,成都
+MID_UNMATCHED,绵阳,31.467,104.679,绵阳
+CD_SOUTH,成都南站,30.615,104.068,成都
+LESHAN,乐山站,29.611,103.756,乐山

@@ -1,0 +1,4 @@
+export const DEFAULT_RAIL_HORIZON_HOURS = 12;
+export const MIN_RAIL_HORIZON_HOURS = 1;
+export const MAX_RAIL_HORIZON_HOURS = 48;
+export const MAX_FLEXIBLE_DATE_OFFSET_DAYS = 3;

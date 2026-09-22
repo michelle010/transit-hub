@@ -1,0 +1,17 @@
+{
+  "name": "transit-hub",
+  "private": true,
+  "workspaces": [
+    "apps/web",
+    "packages/shared"
+  ],
+  "scripts": {
+    "web:dev": "npm run dev --workspace @transit-hub/web",
+    "lint": "npm run lint --workspace @transit-hub/web",
+    "test": "npm run test --workspace @transit-hub/web",
+    "web:e2e": "npm run test:e2e --workspace @transit-hub/web",
+    "web:e2e:headed": "npm run test:e2e:headed --workspace @transit-hub/web",
+    "typecheck": "npm run typecheck --workspace @transit-hub/web",
+    "format:check": "npm run format:check --workspace @transit-hub/web"
+  }
+}
