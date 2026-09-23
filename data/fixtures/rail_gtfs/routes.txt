@@ -1,0 +1,5 @@
+route_id,route_short_name,route_long_name,route_type
+R_G,G,成绵乐城际,2
+R_D,D,成都乐山动车,2
+R_K,K,成都乐山快速,2
+R_FAKE,,杭深线,2

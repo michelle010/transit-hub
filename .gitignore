@@ -1,0 +1,30 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.egg-info/
+dist/
+build/
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+npm-debug.log*
+playwright-report/
+test-results/
+
+# Local database data
+postgres_data/
+
+# Downloaded railway feeds are development artifacts and must not be committed.
+data/external/

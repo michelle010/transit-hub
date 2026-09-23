@@ -1,0 +1,9 @@
+route_id,service_id,trip_id,trip_short_name,trip_headsign
+R_C,DAILY,trip-c5771,C5771/C5774,乐山
+R_D,DAILY,trip-d972,D972/D973,乐山
+R_D,DAILY,trip-d972b,D972/D973B,乐山
+R_C,DAILY,trip-s8512,09/S8512,乐山
+R_C,DAILY,trip-invalid,not-a-train,乐山
+R_D,DAILY,trip-missing-times,K999,乐山
+R_D,DAILY,trip-invalid-times,K998,乐山
+R_FAKE,DAILY,trip-line,杭深线 (全线),线路

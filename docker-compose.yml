@@ -1,0 +1,19 @@
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: transit_hub
+      POSTGRES_USER: transit_hub
+      POSTGRES_PASSWORD: transit_hub_dev_only
+    ports:
+      - "54329:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U transit_hub -d transit_hub"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  postgres_data:

@@ -1,0 +1,327 @@
+{
+  "cities": [
+    {
+      "key": "chengdu",
+      "name_zh": "成都",
+      "name_en": "Chengdu",
+      "province_name_zh": "四川省",
+      "adcode": "510100",
+      "longitude": 104.066,
+      "latitude": 30.572,
+      "coordinate_system": "GCJ02",
+      "fixture_search_names": ["成都", "成都市", "Chengdu"]
+    },
+    {
+      "key": "leshan",
+      "name_zh": "乐山",
+      "name_en": "Leshan",
+      "province_name_zh": "四川省",
+      "adcode": "511100",
+      "longitude": 103.766,
+      "latitude": 29.552,
+      "coordinate_system": "GCJ02",
+      "fixture_search_names": ["乐山", "乐山市", "Leshan"]
+    },
+    {
+      "key": "nanjing",
+      "name_zh": "南京",
+      "name_en": "Nanjing",
+      "province_name_zh": "江苏省",
+      "adcode": "320100",
+      "longitude": 118.796,
+      "latitude": 32.060,
+      "coordinate_system": "GCJ02",
+      "fixture_search_names": ["南京", "南京市", "Nanjing"]
+    },
+    {
+      "key": "suzhou",
+      "name_zh": "苏州",
+      "name_en": "Suzhou",
+      "province_name_zh": "江苏省",
+      "adcode": "320500",
+      "longitude": 120.585,
+      "latitude": 31.299,
+      "coordinate_system": "GCJ02",
+      "fixture_search_names": ["苏州", "苏州市", "Suzhou"]
+    }
+  ],
+  "hubs": [
+    {
+      "slug": "chengdu-tianfu-airport",
+      "city_key": "chengdu",
+      "canonical_name_zh": "成都天府国际机场",
+      "canonical_name_en": "Chengdu Tianfu International Airport",
+      "hub_type": "AIRPORT",
+      "importance_level": 100,
+      "longitude": 104.442,
+      "latitude": 30.314,
+      "coordinate_system": "GCJ02",
+      "railway_station_code": null,
+      "active": true,
+      "passenger_service": true,
+      "source": "seed:test-fixture",
+      "aliases": ["成都天府机场", "天府机场", "Chengdu Tianfu Airport"],
+      "provider_refs": [
+        {"provider": "FIXTURE_HUB", "provider_object_type": "HUB", "provider_id": "fixture:hub:chengdu-tianfu-airport"}
+      ]
+    },
+    {
+      "slug": "chengdu-shuangliu-airport",
+      "city_key": "chengdu",
+      "canonical_name_zh": "成都双流国际机场",
+      "canonical_name_en": "Chengdu Shuangliu International Airport",
+      "hub_type": "AIRPORT",
+      "importance_level": 90,
+      "longitude": 103.947,
+      "latitude": 30.579,
+      "coordinate_system": "GCJ02",
+      "railway_station_code": null,
+      "active": true,
+      "passenger_service": true,
+      "source": "seed:test-fixture",
+      "aliases": ["成都双流机场", "双流机场", "Chengdu Shuangliu Airport"],
+      "provider_refs": [
+        {"provider": "FIXTURE_HUB", "provider_object_type": "HUB", "provider_id": "fixture:hub:chengdu-shuangliu-airport"}
+      ]
+    },
+    {
+      "slug": "chengdu-east",
+      "city_key": "chengdu",
+      "canonical_name_zh": "成都东站",
+      "canonical_name_en": "Chengdu East Railway Station",
+      "hub_type": "RAILWAY",
+      "importance_level": 100,
+      "longitude": 104.138,
+      "latitude": 30.630,
+      "coordinate_system": "GCJ02",
+      "railway_station_code": null,
+      "active": true,
+      "passenger_service": true,
+      "source": "seed:test-fixture",
+      "aliases": ["成都东", "成都东站", "Chengdu East", "Chengdu East Station"],
+      "provider_refs": [
+        {"provider": "FIXTURE_HUB", "provider_object_type": "HUB", "provider_id": "fixture:hub:chengdu-east"},
+        {"provider": "FIXTURE_RAIL", "provider_object_type": "STATION", "provider_id": "fixture:rail:chengdu-east"}
+      ]
+    },
+    {
+      "slug": "chengdu-south",
+      "city_key": "chengdu",
+      "canonical_name_zh": "成都南站",
+      "canonical_name_en": "Chengdu South Railway Station",
+      "hub_type": "RAILWAY",
+      "importance_level": 80,
+      "longitude": 104.068,
+      "latitude": 30.615,
+      "coordinate_system": "GCJ02",
+      "railway_station_code": null,
+      "active": true,
+      "passenger_service": true,
+      "source": "seed:test-fixture",
+      "aliases": ["成都南", "成都南站", "Chengdu South", "Chengdu South Station"],
+      "provider_refs": [
+        {"provider": "FIXTURE_HUB", "provider_object_type": "HUB", "provider_id": "fixture:hub:chengdu-south"},
+        {"provider": "FIXTURE_RAIL", "provider_object_type": "STATION", "provider_id": "fixture:rail:chengdu-south"}
+      ]
+    },
+    {
+      "slug": "chengdu-west",
+      "city_key": "chengdu",
+      "canonical_name_zh": "成都西站",
+      "canonical_name_en": "Chengdu West Railway Station",
+      "hub_type": "RAILWAY",
+      "importance_level": 65,
+      "longitude": 103.928,
+      "latitude": 30.694,
+      "coordinate_system": "GCJ02",
+      "railway_station_code": null,
+      "active": true,
+      "passenger_service": true,
+      "source": "seed:test-fixture",
+      "aliases": ["成都西", "成都西站", "Chengdu West", "Chengdu West Station"],
+      "provider_refs": [
+        {"provider": "FIXTURE_HUB", "provider_object_type": "HUB", "provider_id": "fixture:hub:chengdu-west"},
+        {"provider": "FIXTURE_RAIL", "provider_object_type": "STATION", "provider_id": "fixture:rail:chengdu-west"}
+      ]
+    },
+    {
+      "slug": "chengdu-railway-station",
+      "city_key": "chengdu",
+      "canonical_name_zh": "成都站",
+      "canonical_name_en": "Chengdu Railway Station",
+      "hub_type": "RAILWAY",
+      "importance_level": 75,
+      "longitude": 104.071,
+      "latitude": 30.694,
+      "coordinate_system": "GCJ02",
+      "railway_station_code": null,
+      "active": true,
+      "passenger_service": true,
+      "source": "seed:test-fixture",
+      "aliases": ["成都北站", "火车北站", "Chengdu Railway Station"],
+      "provider_refs": [
+        {"provider": "FIXTURE_HUB", "provider_object_type": "HUB", "provider_id": "fixture:hub:chengdu-railway-station"},
+        {"provider": "FIXTURE_RAIL", "provider_object_type": "STATION", "provider_id": "fixture:rail:chengdu-station"}
+      ]
+    },
+    {
+      "slug": "leshan-railway-station",
+      "city_key": "leshan",
+      "canonical_name_zh": "乐山站",
+      "canonical_name_en": "Leshan Railway Station",
+      "hub_type": "RAILWAY",
+      "importance_level": 100,
+      "longitude": 103.756,
+      "latitude": 29.611,
+      "coordinate_system": "GCJ02",
+      "railway_station_code": null,
+      "active": true,
+      "passenger_service": true,
+      "source": "seed:test-fixture",
+      "aliases": ["乐山", "乐山站", "Leshan Station"],
+      "provider_refs": [
+        {"provider": "FIXTURE_HUB", "provider_object_type": "HUB", "provider_id": "fixture:hub:leshan-station"},
+        {"provider": "FIXTURE_RAIL", "provider_object_type": "STATION", "provider_id": "fixture:rail:leshan"}
+      ]
+    },
+    {
+      "slug": "nanjing-lukou-airport",
+      "city_key": "nanjing",
+      "canonical_name_zh": "南京禄口国际机场",
+      "canonical_name_en": "Nanjing Lukou International Airport",
+      "hub_type": "AIRPORT",
+      "importance_level": 100,
+      "longitude": 118.862,
+      "latitude": 31.742,
+      "coordinate_system": "GCJ02",
+      "railway_station_code": null,
+      "active": true,
+      "passenger_service": true,
+      "source": "seed:test-fixture",
+      "aliases": ["南京禄口机场", "禄口机场", "Nanjing Lukou Airport"],
+      "provider_refs": [
+        {"provider": "FIXTURE_HUB", "provider_object_type": "HUB", "provider_id": "fixture:hub:nanjing-lukou-airport"}
+      ]
+    },
+    {
+      "slug": "nanjing-south",
+      "city_key": "nanjing",
+      "canonical_name_zh": "南京南站",
+      "canonical_name_en": "Nanjing South Railway Station",
+      "hub_type": "RAILWAY",
+      "importance_level": 100,
+      "longitude": 118.796,
+      "latitude": 31.968,
+      "coordinate_system": "GCJ02",
+      "railway_station_code": null,
+      "active": true,
+      "passenger_service": true,
+      "source": "seed:test-fixture",
+      "aliases": ["南京南", "南京南站", "Nanjing South", "Nanjing South Station"],
+      "provider_refs": [
+        {"provider": "FIXTURE_HUB", "provider_object_type": "HUB", "provider_id": "fixture:hub:nanjing-south"},
+        {"provider": "FIXTURE_RAIL", "provider_object_type": "STATION", "provider_id": "fixture:rail:nanjing-south"}
+      ]
+    },
+    {
+      "slug": "nanjing-railway-station",
+      "city_key": "nanjing",
+      "canonical_name_zh": "南京站",
+      "canonical_name_en": "Nanjing Railway Station",
+      "hub_type": "RAILWAY",
+      "importance_level": 90,
+      "longitude": 118.803,
+      "latitude": 32.088,
+      "coordinate_system": "GCJ02",
+      "railway_station_code": null,
+      "active": true,
+      "passenger_service": true,
+      "source": "seed:test-fixture",
+      "aliases": ["南京火车站", "南京站", "Nanjing Station"],
+      "provider_refs": [
+        {"provider": "FIXTURE_HUB", "provider_object_type": "HUB", "provider_id": "fixture:hub:nanjing-station"},
+        {"provider": "FIXTURE_RAIL", "provider_object_type": "STATION", "provider_id": "fixture:rail:nanjing-station"}
+      ]
+    },
+    {
+      "slug": "suzhou-railway-station",
+      "city_key": "suzhou",
+      "canonical_name_zh": "苏州站",
+      "canonical_name_en": "Suzhou Railway Station",
+      "hub_type": "RAILWAY",
+      "importance_level": 100,
+      "longitude": 120.612,
+      "latitude": 31.335,
+      "coordinate_system": "GCJ02",
+      "railway_station_code": null,
+      "active": true,
+      "passenger_service": true,
+      "source": "seed:test-fixture",
+      "aliases": ["苏州", "苏州站", "Suzhou Station"],
+      "provider_refs": [
+        {"provider": "FIXTURE_HUB", "provider_object_type": "HUB", "provider_id": "fixture:hub:suzhou-station"},
+        {"provider": "FIXTURE_RAIL", "provider_object_type": "STATION", "provider_id": "fixture:rail:suzhou-station"}
+      ]
+    },
+    {
+      "slug": "suzhou-north",
+      "city_key": "suzhou",
+      "canonical_name_zh": "苏州北站",
+      "canonical_name_en": "Suzhou North Railway Station",
+      "hub_type": "RAILWAY",
+      "importance_level": 90,
+      "longitude": 120.643,
+      "latitude": 31.422,
+      "coordinate_system": "GCJ02",
+      "railway_station_code": null,
+      "active": true,
+      "passenger_service": true,
+      "source": "seed:test-fixture",
+      "aliases": ["苏州北", "苏州北站", "Suzhou North", "Suzhou North Station"],
+      "provider_refs": [
+        {"provider": "FIXTURE_HUB", "provider_object_type": "HUB", "provider_id": "fixture:hub:suzhou-north"},
+        {"provider": "FIXTURE_RAIL", "provider_object_type": "STATION", "provider_id": "fixture:rail:suzhou-north"}
+      ]
+    },
+    {
+      "slug": "suzhou-yuanqu",
+      "city_key": "suzhou",
+      "canonical_name_zh": "苏州园区站",
+      "canonical_name_en": "Suzhou Yuanqu Railway Station",
+      "hub_type": "RAILWAY",
+      "importance_level": 70,
+      "longitude": 120.713,
+      "latitude": 31.338,
+      "coordinate_system": "GCJ02",
+      "railway_station_code": null,
+      "active": true,
+      "passenger_service": true,
+      "source": "seed:test-fixture",
+      "aliases": ["园区站", "苏州园区", "Suzhou Yuanqu"],
+      "provider_refs": [
+        {"provider": "FIXTURE_HUB", "provider_object_type": "HUB", "provider_id": "fixture:hub:suzhou-yuanqu"},
+        {"provider": "FIXTURE_RAIL", "provider_object_type": "STATION", "provider_id": "fixture:rail:suzhou-yuanqu"}
+      ]
+    },
+    {
+      "slug": "suzhou-new-district",
+      "city_key": "suzhou",
+      "canonical_name_zh": "苏州新区站",
+      "canonical_name_en": "Suzhou New District Railway Station",
+      "hub_type": "RAILWAY",
+      "importance_level": 60,
+      "longitude": 120.568,
+      "latitude": 31.301,
+      "coordinate_system": "GCJ02",
+      "railway_station_code": null,
+      "active": true,
+      "passenger_service": true,
+      "source": "seed:test-fixture",
+      "aliases": ["苏州新区", "新区站", "Suzhou New District"],
+      "provider_refs": [
+        {"provider": "FIXTURE_HUB", "provider_object_type": "HUB", "provider_id": "fixture:hub:suzhou-new-district"},
+        {"provider": "FIXTURE_RAIL", "provider_object_type": "STATION", "provider_id": "fixture:rail:suzhou-new-district"}
+      ]
+    }
+  ]
+}

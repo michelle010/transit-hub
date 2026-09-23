@@ -1,0 +1,36 @@
+services:
+  - type: web
+    name: transit-hub-api
+    runtime: python
+    plan: free
+    rootDir: .
+    buildCommand: >-
+      python -m pip install --upgrade uv
+      && uv sync --project apps/api --frozen --no-dev
+      && python scripts/prepare_gtfs_artifact.py
+        --output data/external/private-trial/output_gtfs.zip
+    startCommand: >-
+      uv run --project apps/api uvicorn app.main:app --app-dir apps/api
+      --host 0.0.0.0 --port $PORT
+    healthCheckPath: /api/health/ready
+    envVars:
+      - key: APP_ENV
+        value: private_trial
+      - key: RAIL_PROVIDER
+        value: gtfs
+      - key: RAIL_GTFS_PATH
+        value: data/external/private-trial/output_gtfs.zip
+      - key: AMAP_BASE_URL
+        value: https://restapi.amap.com
+      - key: LOG_LEVEL
+        value: INFO
+      - key: DATABASE_URL
+        sync: false
+      - key: AMAP_API_KEY
+        sync: false
+      - key: RAIL_GTFS_ARTIFACT_URL
+        sync: false
+      - key: RAIL_GTFS_ARTIFACT_SHA256
+        sync: false
+      - key: RAIL_GTFS_ARTIFACT_TOKEN
+        sync: false

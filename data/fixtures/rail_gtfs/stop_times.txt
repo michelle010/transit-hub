@@ -1,0 +1,14 @@
+trip_id,arrival_time,departure_time,stop_id,stop_sequence
+trip-g123,15:00:00,15:00:00,CD_EAST,1
+trip-g123,15:20:00,15:22:00,CD_SOUTH,2
+trip-g123,16:20:00,16:20:00,LESHAN,3
+trip-d456,24:05:00,24:05:00,CD_EAST,1
+trip-d456,26:00:00,26:00:00,LESHAN,2
+trip-k789,25:30:00,25:30:00,CD_EAST,1
+trip-k789,27:00:00,27:00:00,LESHAN,2
+trip-c888,06:00:00,06:00:00,CD_EAST,1
+trip-c888,07:00:00,07:00:00,LESHAN,2
+trip-g321,08:00:00,08:00:00,LESHAN,1
+trip-g321,09:00:00,09:00:00,CD_EAST,2
+trip-line,10:00:00,10:00:00,CD_EAST,1
+trip-line,11:00:00,11:00:00,LESHAN,2
